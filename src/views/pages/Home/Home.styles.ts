@@ -8,7 +8,7 @@ export const useStyles = makeStyles({
   list: {
     position: 'fixed',
     top: '50px',
-    right: '50px',
+    right: '20px',
     backgroundColor: '#C2C1C1',
     width: '80px',
     height: '100px',
@@ -114,11 +114,11 @@ export const useStyles = makeStyles({
     padding: '72px 0px 150px 0px',
     '& .react-slideshow-container .default-nav:first-of-type': {
       backgroundColor: 'transparent',
-      margin: '8px 0px 0px 20%',
+      margin: '8px 0px 0px 15%',
     },
     '& .react-slideshow-container .default-nav:last-of-type': {
       backgroundColor: 'transparent',
-      margin: '0px 20% 0px 0px',
+      margin: '0px 15% 0px 0px',
     },
     '& div>div>div>div': {
       display: 'flex',

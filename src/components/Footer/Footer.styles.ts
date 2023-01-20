@@ -4,6 +4,7 @@ export const useStyles = makeStyles({
   container: {
     backgroundColor: '#000000',
     width: '100%',
+    minWidth: '500px',
     height: '68px',
     display: 'flex',
     padding: '41px 0px 31px 0px',

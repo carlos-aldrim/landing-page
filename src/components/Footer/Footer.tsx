@@ -6,11 +6,9 @@ export const Footer: React.FC = () => {
   const styles = useStyles();
 
   return (
-    <React.Fragment>
-      <Box className={styles.container}>
-        <Typography className={styles.text}>Todos os direitos reservados </Typography>
-        <Typography className={styles.tag}>@NomeUsuárioGithub</Typography>
-      </Box>
-    </React.Fragment>
+    <Box className={styles.container}>
+      <Typography className={styles.text}>Todos os direitos reservados </Typography>
+      <Typography className={styles.tag}>@NomeUsuárioGithub</Typography>
+    </Box>
   );
 };

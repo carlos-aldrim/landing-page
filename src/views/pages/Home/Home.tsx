@@ -13,17 +13,14 @@ import {
   Typography,
 } from '@mui/material';
 import Logo from '../../../assets/icon/Logo.svg';
-import Slide1 from '../../../assets/img/slide1.jpg';
 import 'react-slideshow-image/dist/styles.css';
 import { Fade } from 'react-slideshow-image';
 import { Comment } from '../../../components/Comment';
-import { useNavigate } from 'react-router-dom';
 
 export const Home: React.FC = () => {
   const [list, setList] = React.useState(false);
   const [name] = React.useState('Aldrim');
   const styles = useStyles();
-  const navigate = useNavigate();
 
   const fadeImages = [
     'https://img.freepik.com/fotos-gratis/foto-de-foco-seletivo-dos-ramos-de-erva-doce-nas-colinas_181624-39484.jpg?w=740&t=st=1673712543~exp=1673713143~hmac=d870d874b0d987c6c61e7439926c9672690cabecad9b8507a37161b0804d078f',
