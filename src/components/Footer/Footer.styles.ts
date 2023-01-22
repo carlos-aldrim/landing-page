@@ -3,7 +3,7 @@ import { makeStyles } from '@mui/styles';
 export const useStyles = makeStyles({
   container: {
     backgroundColor: '#000000',
-    width: '100%',
+    width: 'calc(100vw - 33px)',
     minWidth: '500px',
     height: '68px',
     display: 'flex',
@@ -12,11 +12,11 @@ export const useStyles = makeStyles({
     justifyContent: 'center',
     flexDirection: 'column',
     "& .css-ahj2mt-MuiTypography-root": {
-      margin: '0px 0px 10px 0px',
-      fontSize: '20px',
+      margin: '0px 0px 0.1vh 0px',
+      fontSize: '1.5vw',
       fontFamily: 'Inter',
       fontWeight: 400,
-      lineHeight: '24px',
+      lineHeight: '130%',
     },
   },
   text: {

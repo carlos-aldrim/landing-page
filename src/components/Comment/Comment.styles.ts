@@ -3,12 +3,10 @@ import { makeStyles } from '@mui/styles';
 export const useStyles = makeStyles({
   container: {
     backgroundColor: '#FFFFFF',
-    minWidth: '215px',
-    maxHeight: '347px',
-    minHeight: '325px',
+    minWidth: '10vw',
     borderRadius: '20px',
-    padding: '33px 35px 0px 30px',
-    margin: '0px 0px 0px 49px',
+    padding: '3vh 3vh 3vh 3vh',
+    margin: '30px 1vw 30px 1vw',
   },
   main: {
     display: 'flex',
@@ -16,8 +14,8 @@ export const useStyles = makeStyles({
     alignItems: 'flex-start',
   },
   img: {
-    width: '50px',
-    height: '50px',
+    width: '4vw',
+    height: '4vw',
     backgroundColor: '#D9D9D9',
     borderRadius: '25px',
     display: 'flex',
@@ -30,24 +28,24 @@ export const useStyles = makeStyles({
     },
   },
   data: {
-    margin: '0px 0px 23px 10px',
+    margin: '0px 0px 10% 10px',
   },
   name: {
     '&.css-ahj2mt-MuiTypography-root': {
-      fontSize: '20px',
+      fontSize: '1.4vw',
       fontFamily: 'Inter',
       fontWeight: 400,
-      lineHeight: '24px',
+      lineHeight: '130%',
       color: '#000000',
       maxWidth: '120px',
     },
   },
   user: {
     '&.css-ahj2mt-MuiTypography-root': {
-      fontSize: '16px',
+      fontSize: '1.2vw',
       fontFamily: 'Inter',
       fontWeight: 400,
-      lineHeight: '19px',
+      lineHeight: '130%',
       color: '#4E4E4E',
     },
   },
@@ -55,14 +53,14 @@ export const useStyles = makeStyles({
     width: '100%',
     height: 'auto',
     maxHeight: '200px',
-    margin: '19px 0px 0px 0px',
+    margin: '10px 0px 0px 0px',
   },
   text: {
     '&.css-ahj2mt-MuiTypography-root': {
-      fontSize: '16px',
+      fontSize: '1.2vw',
       fontFamily: 'Inter',
       fontWeight: 400,
-      lineHeight: '19px',
+      lineHeight: '130%',
       color: '#000000',
     },
   },
