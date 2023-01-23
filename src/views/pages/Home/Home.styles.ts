@@ -10,26 +10,27 @@ export const useStyles = makeStyles({
     top: '55px',
     right: '5vw',
     backgroundColor: '#C2C1C1',
-    width: '8vw',
-    height: '8vw',
+    width: '10vw',
+    height: 'auto',
     '& ul': {
       padding: '0px',
     },
     '& li': {
-      width: '8vw',
+      width: '10vw',
+      height: 'auto',
     },
   },
   itemButtom: {
     height: '2.65vw',
+    width: '100%',
     '& div': {
-      padding: 'auto',
       textAlign: 'center',
       '& span': {
         color: '#FFFFFF',
-        fontSize: '1.2vw',
+        fontSize: '1vw',
         fontFamily: 'Inter',
         fontWeight: 400,
-        lineHeight: '24px',
+        lineHeight: '130%',
         fontStyle: 'normal',
         width: 'auto',
         height: 'auto',
@@ -124,6 +125,9 @@ export const useStyles = makeStyles({
     },
     '& .react-slideshow-container+ul.indicators': {
       padding: 0,
+    },
+    '& .react-slideshow-container .nav': {
+      indexZ: 1,
     },
   },
   titleSelection: {
